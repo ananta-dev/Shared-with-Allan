@@ -43,8 +43,8 @@ int OnStart() {
    Print(result);
 
 //--- width and height of the chart
-   ChartWidth=ChartWidthInPixels();
-   ChartHeight=ChartHeightInPixelsGet()-50;
+   ChartWidth=GetChartWidthInPixels();
+   ChartHeight=GetChartHeightInPixels()-50;
 //---
    can_width=ChartWidth/3;   can_height=ChartHeight;
    // can_x1=0;            can_y1=0;
@@ -122,7 +122,7 @@ int OnStart() {
 //+------------------------------------------------------------------+
 //| Chart property width                                             |
 //+------------------------------------------------------------------+
-int ChartWidthInPixels(const long chart_ID=0)
+int GetChartWidthInPixels(const long chart_ID=0)
   {
 //--- prepare the variable to get the property value
    long result=-1;
@@ -140,7 +140,7 @@ int ChartWidthInPixels(const long chart_ID=0)
 //+------------------------------------------------------------------+
 //| Chart property height                                            |
 //+------------------------------------------------------------------+
-int ChartHeightInPixelsGet(const long chart_ID=0,const int sub_window=0)
+int GetChartHeightInPixels(const long chart_ID=0,const int sub_window=0)
   {
 //--- prepare the variable to get the property value
    long result=-1;
