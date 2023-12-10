@@ -3,6 +3,10 @@
 //|                           Copyright © 2023, Juan Guirao - Ananta |
 //|                                               https://ananta.dev |
 //+------------------------------------------------------------------+
+// 
+// Credit to Vladimir Karputov
+// https://www.mql5.com/en/articles/1341
+// 
 #property copyright "Copyright © 2023, Juan Guirao - Ananta"
 #property link      "https://ananta.dev"
 #property version   "1.0"
