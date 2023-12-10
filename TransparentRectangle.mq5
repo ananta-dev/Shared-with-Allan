@@ -1,12 +1,12 @@
 //+------------------------------------------------------------------+
-//|                                                     Illusion.mq5 |
-//|                              Copyright © 2015, Vladimir Karputov |
-//|                                           http://wmua.ru/slesar/ |
+//|                                         TransparentRectangle.mq5 |
+//|                           Copyright © 2023, Juan Guirao - Ananta |
+//|                                               https://ananta.dev |
 //+------------------------------------------------------------------+
-#property copyright "Copyright © 2015, Vladimir Karputov"
-#property link      "http://wmua.ru/slesar/"
+#property copyright "Copyright © 2023, Juan Guirao - Ananta"
+#property link      "https://ananta.dev"
 #property version   "1.0"
-#property description "The illusion of transparency"
+#property description "Transparent Rectangle"
 //--- show the window of input parameters when launching the script
 #property script_show_inputs
 #include <Canvas\Canvas.mqh>
